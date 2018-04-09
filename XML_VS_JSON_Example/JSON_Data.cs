@@ -63,8 +63,4 @@ public class JSON_SerializerWriter {
 //######### NOTES #########
 // Also interesting: Population(https://www.newtonsoft.com/json/help/html/PopulateObject.htm), this writes all file contained values to a class object
 //https://www.newtonsoft.com/json/help/html/DeserializeWithJsonSerializerFromFile.htm
-/*using (StreamReader file = File.OpenText(_path)) {
-    JsonSerializer serializer = new JsonSerializer();
-    T playerdata = (T)serializer.Deserialize(file, typeof(T));
-    }*/
 
